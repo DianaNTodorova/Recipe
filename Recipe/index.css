@@ -1,0 +1,105 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #ffffff;
+  color: #0d47a1;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background-color: #e3f2fd;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.header-main {
+  font-size: 2.8rem;
+  color: #0d47a1;
+  margin-bottom: 15px;
+}
+
+.header-description {
+  font-size: 1.1rem;
+  color: #063970;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.header-img .img-second {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Main Sections */
+.main-content .section-ingredients,
+.main-content .section-instructions,
+.main-content .section-image {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f1f8ff;
+  border-left: 6px solid #0d47a1;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #0d47a1;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #0d47a1;
+  padding-bottom: 5px;
+}
+
+.ingredients-list,
+.instructions-list {
+  padding-left: 25px;
+}
+
+.ingredient-item,
+.instruction-step {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #1a237e;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 2px solid #0d47a1;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.footer-title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+}
